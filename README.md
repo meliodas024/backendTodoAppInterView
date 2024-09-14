@@ -51,6 +51,13 @@ pip install -r requirements.txt
 5. **Configurar Variables de Entorno:**
 
 Renombra el archivo .env.example a .env y configura las variables de entorno necesarias. Asegúrate de proporcionar los valores correctos para tu entorno.
+SECRET_KEY=tu_clave_secreta_aqui
+DEBUG= True o False en producción
+DB_NAME=nombre_de_tu_base_de_datos
+DB_USER=usuario_de_tu_base_de_datos
+DB_PASSWORD=contraseña_de_tu_base_de_datos
+DB_HOST=host_de_tu_base_de_datos (por defecto 'localhost')
+DB_PORT=puerto_de_tu_base_de_datos (por defecto '5432')
 
 6.**Realizar Migraciones:**
 
