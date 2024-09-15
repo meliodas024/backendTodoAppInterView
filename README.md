@@ -58,6 +58,7 @@ DB_USER=usuario_de_tu_base_de_datos
 DB_PASSWORD=contraseña_de_tu_base_de_datos
 DB_HOST=host_de_tu_base_de_datos (por defecto 'localhost')
 DB_PORT=puerto_de_tu_base_de_datos (por defecto '5432')
+ALLOWED_HOSTS=host permitidos, inclouir el dominio de produccion
 
 6.**Realizar Migraciones:**
 
